@@ -1,0 +1,374 @@
+Manager:
+    Solver:
+    Instr:
+    
+    
+
+
+# Box Layout
+<Solver>:
+    name: "main"
+    # TextInput Assignments
+    # Row 0
+    box_00: box_00
+    box_01: box_01
+    box_02: box_02
+    box_03: box_03
+    box_04: box_04
+    box_05: box_05
+    box_06: box_06
+    box_07: box_07
+    box_08: box_08
+    # Row 1
+    box_10: box_10
+    box_11: box_11
+    box_12: box_12
+    box_13: box_13
+    box_14: box_14
+    box_15: box_15
+    box_16: box_16
+    box_17: box_17
+    box_18: box_18
+    # Row 2
+    box_20: box_20
+    box_21: box_21
+    box_22: box_22
+    box_23: box_23
+    box_24: box_24
+    box_25: box_25
+    box_26: box_26
+    box_27: box_27
+    box_28: box_28
+    # Row 3
+    box_30: box_30
+    box_31: box_31
+    box_32: box_32
+    box_33: box_33
+    box_34: box_34
+    box_35: box_35
+    box_36: box_36
+    box_37: box_37
+    box_38: box_38
+    # Row 4
+    box_40: box_40
+    box_41: box_41
+    box_42: box_42
+    box_43: box_43
+    box_44: box_44
+    box_45: box_45
+    box_46: box_46
+    box_47: box_47
+    box_48: box_48
+    # Row 5
+    box_50: box_50
+    box_51: box_51
+    box_52: box_52
+    box_53: box_53
+    box_54: box_54
+    box_55: box_55
+    box_56: box_56
+    box_57: box_57
+    box_58: box_58
+    # Row 6
+    box_60: box_60
+    box_61: box_61
+    box_62: box_62
+    box_63: box_63
+    box_64: box_64
+    box_65: box_65
+    box_66: box_66
+    box_67: box_67
+    box_68: box_68
+    # Row 7
+    box_70: box_70
+    box_71: box_71
+    box_72: box_72
+    box_73: box_73
+    box_74: box_74
+    box_75: box_75
+    box_76: box_76
+    box_77: box_77
+    box_78: box_78
+    # Row 8 
+    box_80: box_80
+    box_81: box_81
+    box_82: box_82
+    box_83: box_83
+    box_84: box_84
+    box_85: box_85
+    box_86: box_86
+    box_87: box_87
+    box_88: box_88
+
+    BoxLayout:
+
+        orientation: 'vertical'
+
+       
+            
+        # Large Grid (creates larger 9 squares)
+        GridLayout:
+            padding: '8sp'
+            spacing: '8sp'
+            size_hint: 1,2
+            rows: 3
+            cols: 3
+
+            # Smaller Grids (9 smaller boxes inside each of the 9 larger boxes)
+            GridLayout:
+                rows: 3
+                cols: 3
+                InputBox:
+                    id: box_00
+                InputBox:
+                    id: box_01
+                InputBox:
+                    id: box_02
+                InputBox:
+                    id: box_10
+                InputBox:
+                    id: box_11
+                InputBox:
+                    id: box_12
+                InputBox:
+                    id: box_20
+                InputBox:
+                    id: box_21
+                InputBox:
+                    id: box_22
+            GridLayout:
+                rows: 3
+                cols: 3
+                InputBox:
+                    id: box_03
+                InputBox:
+                    id: box_04
+                InputBox:
+                    id: box_05
+                InputBox:
+                    id: box_13
+                InputBox:
+                    id: box_14
+                InputBox:
+                    id: box_15
+                InputBox:
+                    id: box_23
+                InputBox:
+                    id: box_24
+                InputBox:
+                    id: box_25
+            GridLayout:
+                rows: 3
+                cols: 3
+                InputBox:
+                    id: box_06
+                InputBox:
+                    id: box_07
+                InputBox:
+                    id: box_08
+                InputBox:
+                    id: box_16
+                InputBox:
+                    id: box_17
+                InputBox:
+                    id: box_18
+                InputBox:
+                    id: box_26
+                InputBox:
+                    id: box_27
+                InputBox:
+                    id: box_28
+            GridLayout:
+                rows: 3
+                cols: 3
+                InputBox:
+                    id: box_30
+                InputBox:
+                    id: box_31
+                InputBox:
+                    id: box_32
+                InputBox:
+                    id: box_40
+                InputBox:
+                    id: box_41
+                InputBox:
+                    id: box_42
+                InputBox:
+                    id: box_50
+                InputBox:
+                    id: box_51
+                InputBox:
+                    id: box_52
+            GridLayout:
+                rows: 3
+                cols: 3
+                InputBox:
+                    id: box_33
+                InputBox:
+                    id: box_34
+                InputBox:
+                    id: box_35
+                InputBox:
+                    id: box_43
+                InputBox:
+                    id: box_44
+                InputBox:
+                    id: box_45
+                InputBox:
+                    id: box_53
+                InputBox:
+                    id: box_54
+                InputBox:
+                    id: box_55
+            GridLayout:
+                rows: 3
+                cols: 3
+                InputBox:
+                    id: box_36
+                InputBox:
+                    id: box_37
+                InputBox:
+                    id: box_38
+                InputBox:
+                    id: box_46
+                InputBox:
+                    id: box_47
+                InputBox:
+                    id: box_48
+                InputBox:
+                    id: box_56
+                InputBox:
+                    id: box_57
+                InputBox:
+                    id: box_58
+            GridLayout:
+                rows: 3
+                cols: 3
+                InputBox:
+                    id: box_60
+                InputBox:
+                    id: box_61
+                InputBox:
+                    id: box_62
+                InputBox:
+                    id: box_70
+                InputBox:
+                    id: box_71
+                InputBox:
+                    id: box_72
+                InputBox:
+                    id: box_80
+                InputBox:
+                    id: box_81
+                InputBox:
+                    id: box_82
+            GridLayout:
+                rows: 3
+                cols: 3
+                InputBox:
+                    id: box_63
+                InputBox:
+                    id: box_64
+                InputBox:
+                    id: box_65
+                InputBox:
+                    id: box_73
+                InputBox:
+                    id: box_74
+                InputBox:
+                    id: box_75
+                InputBox:
+                    id: box_83
+                InputBox:
+                    id: box_84
+                InputBox:
+                    id: box_85
+            GridLayout:
+                rows: 3
+                cols: 3
+                InputBox:
+                    id: box_66
+                InputBox:
+                    id: box_67
+                InputBox:
+                    id: box_68
+                InputBox:
+                    id: box_76
+                InputBox:
+                    id: box_77
+                InputBox:
+                    id: box_78
+                InputBox:
+                    id: box_86
+                InputBox:
+                    id: box_87
+                InputBox:
+                    id: box_88
+                
+        GridLayout:
+            cols:2
+            padding: '8sp'
+            spacing: '8sp'
+            # Buttons placed below the Sudoku Grid
+            Button:
+                text: "Hints"
+                font_size: '28sp'
+                on_release:
+                    root.hintsButton()   
+            Button:
+                text: "Solve"
+                font_size: '28sp'
+                on_release:
+                    root.solveButton()
+            Button:
+                text: "Clear"
+                font_size: '28sp'
+                on_release:
+                    root.clearButton()
+            Button:
+                text: "Help"
+                font_size: '28sp'
+                on_release:
+                    root.manager.current = "instr"
+
+
+<Instr>:
+    name: "instr"
+    
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '8sp'
+        ScrollView:
+            size_hint: 1,5
+            do_scroll_x: False
+            do_scroll_y: True    
+            Label:
+                text: root.my_text
+                font_size: '24sp'
+                size_hint_x: 1.0
+                size_hint_y: None
+                text_size: self.width, None
+                height: self.texture_size[1]
+                markup: True
+                halign: "left"
+                valign: "top"
+                
+                
+
+        Button:
+            text: "Got it!"
+            font_size: '28sp'
+            on_release:
+                root.manager.current = "main"
+
+
+<InputBox@TextInput>:
+    multiline: False
+    write_tab: False
+    padding_y: '4sp',0
+    halign: 'center'
+    font_name: 'Roboto-Bold'
+    font_size: '28sp'
+    
+    
+
